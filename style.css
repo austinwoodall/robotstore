@@ -1,0 +1,94 @@
+html,body {
+   padding: 0;
+   margin: 0;
+   background-color: wheat;
+   overflow-x: hidden;
+   font-family: share_tech;
+}
+
+.header1 {
+   display: inline-block;
+   background-color: #333;
+   width: 100%;
+   height: 6em;
+}
+
+nav {
+   transform: translate(450px, -80px);
+}
+
+nav li {
+   display: inline-block;
+   padding: 20px;
+}
+
+nav a {
+   text-decoration: none;
+   color: white;
+}
+
+input::-webkit-input-placeholder {
+   padding-left: 5px;
+   color: white;
+}
+
+input:focus {
+   color: white;
+   outline: none;
+}
+
+fieldset {
+   border: none;
+}
+
+footer {
+   background-color: #333;
+}
+
+#headername {
+   position: absolute;
+   top: 4%;
+   left: 5em;
+   font-size: 35px;
+   margin-right: 10em;
+   color: red;
+}
+
+#welcomeimage {
+   display: bock;
+   position: relative;
+   left: 25%;
+}
+
+#welcometext {
+   column-count: 2;
+}
+
+#contactForm {
+   display: inline-block;
+   position: relative;
+   margin-left: 800px;
+   margin-top: -110px;
+   overflow: hidden;
+}
+
+.headerlogo img {
+   margin-top: 0;
+   width:140px; 
+   height:96px;
+}
+
+.searchbox {
+   position: absolute;
+   height: 25px;
+   left: 85%;
+   bottom: 90%;
+   border: 1px solid white;
+   border-radius: 15px;
+   background: #333;
+}
+
+@font-face {
+   font-family: share_tech;
+   src: url('./fonts/Share_Tech/ShareTech-Regular.ttf');
+}
